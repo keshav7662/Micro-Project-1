@@ -1,0 +1,153 @@
+.container{
+    width: 1400px;
+    height: 900px;
+    display: grid;
+    grid-template-rows: 1fr 298px;
+}
+.top{
+    display: grid;
+    grid-template-columns: 1fr 550px;
+    
+}
+.top-left{
+    padding: 8%;
+    display: flex;
+    gap: 3%;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.top-right{
+    display: flex;
+    justify-content: center;
+    margin-right: 12%;
+}
+#heading{
+    padding: 2%;
+    width: 562px;
+    height: 108px;
+    color: #282828;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; 
+}
+#content1{
+    padding: 2%;
+    width: 400px;
+    height: 81px;
+    color: #484848;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+}
+
+#content2{
+
+    padding: 2%;
+    width: 227px;
+    height: 41px;
+    color: #282828;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 160%;
+}
+
+.email-section{
+    padding: 2%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+#email{    
+    display: flex;
+    padding: 2%;
+    width: 300px;
+    height: 30px;
+    border-radius: 8px;
+    border: 4px solid #000;
+    background: #FFF;
+    color: #888;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
+#register{
+    display: flex;
+    width: 216px;
+    height: 64px;
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+#content3{
+    width: 344px;
+    height: 71px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%; 
+}
+.bottom{
+    display: grid;
+    grid-template-columns: 1fr 550px;
+    background-color: #282828;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.bottom-left{
+    padding: 3% 11%;
+}
+.box-left{
+    display: flex;
+    margin: 2%;
+    width: 216px;
+    height: 36px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+.bottom-right{
+    padding: 3% 13%;
+}
+.box-right{
+    display: flex;
+    justify-content: end;
+    margin: 2%;
+    width: 216px;
+    height: 36px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+#logo{
+    display: flex;
+    gap: 0.5em;
+    
+}
